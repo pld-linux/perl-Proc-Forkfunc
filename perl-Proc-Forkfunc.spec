@@ -27,7 +27,7 @@ przekazan± przez referencjê. Funkcja potomna nie powinna wracaæ.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
