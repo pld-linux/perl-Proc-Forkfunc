@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Forkfunc
-Summary:	Proc::Forkfunc perl module
-Summary(pl):	Modu³ perla Proc::Forkfunc
+Summary:	Proc::Forkfunk -- fork off a function
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	8
@@ -15,10 +14,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc::Forkfunc perl module.
-
-%description -l pl
-Modu³ perla Proc::Forkfunc.
+Fork off a process.  Call a function on the child process the function
+should be passed in as a reference.  The child function should not return.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
