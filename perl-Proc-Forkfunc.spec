@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Forkfunc
-Summary:	Proc-Forkfunc perl module
-Summary(pl):	Modu³ perla Proc-Forkfunc
+Summary:	Proc::Forkfunc perl module
+Summary(pl):	Modu³ perla Proc::Forkfunc
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc-Forkfunc perl module.
+Proc::Forkfunc perl module.
 
 %description -l pl
-Modu³ perla Proc-Forkfunc.
+Modu³ perla Proc::Forkfunc.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
