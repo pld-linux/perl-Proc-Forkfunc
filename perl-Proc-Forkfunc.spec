@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Forkfunc
-Summary:	Proc::Forkfunk -- fork off a function
-Summary(pl):	Modu³ Proc::Forkfunk - uruchamiaj±cy funkcjê w procesie potomnym
+Summary:	Proc::Forkfunk Perl module - fork off a function
+Summary(pl):	Modu³ Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	11
