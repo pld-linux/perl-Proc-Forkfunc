@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Proc
-%define	pnam	Forkfunc
+%define		pdir	Proc
+%define		pnam	Forkfunc
 Summary:	Proc::Forkfunk Perl module - fork off a function
 Summary(pl):	Modu³ Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
 Name:		perl-Proc-Forkfunc
