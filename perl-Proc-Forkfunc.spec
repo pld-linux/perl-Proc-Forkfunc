@@ -29,7 +29,7 @@ przekazan± przez referencjê. Funkcja potomna nie powinna wracaæ.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
