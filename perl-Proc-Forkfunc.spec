@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Proc-Forkfunc
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Proc/Proc-Forkfunc-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Proc/Proc-Forkfunc-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc-Forkfunc perl module. 
+Proc-Forkfunc perl module.
 
 %description -l pl
 Modu³ perla Proc-Forkfunc.
