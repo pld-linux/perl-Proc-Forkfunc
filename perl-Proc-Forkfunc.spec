@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Forkfunc
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomn
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	11
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0b34666fa7fd32602f75d22a4da9adf6
@@ -32,10 +36,13 @@ przekazan± przez referencjê. Funkcja potomna nie powinna wracaæ.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
