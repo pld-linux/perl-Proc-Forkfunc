@@ -1,9 +1,12 @@
+%define	pdir	Proc
+%define	pnam	Forkfunc
 %include	/usr/lib/rpm/macros.perl
 Summary:	Proc-Forkfunc perl module
 Summary(pl):	Modu³ perla Proc-Forkfunc
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
-Release:	6
+Release:	7
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Proc/Proc-Forkfunc-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
