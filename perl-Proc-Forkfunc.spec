@@ -3,7 +3,7 @@ Summary:	Proc-Forkfunc perl module
 Summary(pl):	Modu³ perla Proc-Forkfunc
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
