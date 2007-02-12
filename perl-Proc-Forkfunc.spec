@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	Forkfunc
 Summary:	Proc::Forkfunk Perl module - fork off a function
-Summary(pl):	Modu³ Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
+Summary(pl.UTF-8):   ModuÅ‚ Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	12
@@ -24,9 +24,9 @@ Fork off a process.  Call a function on the child process the function
 should be passed in as a reference.  The child function should not
 return.
 
-%description -l pl
-Ten modu³ tworzy proces potomny i wywo³uje w tym procesie funkcjê
-przekazan± przez referencjê. Funkcja potomna nie powinna wracaæ.
+%description -l pl.UTF-8
+Ten moduÅ‚ tworzy proces potomny i wywoÅ‚uje w tym procesie funkcjÄ™
+przekazanÄ… przez referencjÄ™. Funkcja potomna nie powinna wracaÄ‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
