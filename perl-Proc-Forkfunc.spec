@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	Forkfunc
 Summary:	Proc::Forkfunk Perl module - fork off a function
-Summary(pl.UTF-8):   Moduł Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
+Summary(pl.UTF-8):	Moduł Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
 Release:	12
