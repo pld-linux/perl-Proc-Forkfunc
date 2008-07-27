@@ -9,7 +9,7 @@ Summary:	Proc::Forkfunk Perl module - fork off a function
 Summary(pl.UTF-8):	Moduł Perla Proc::Forkfunk - uruchamianie funkcji w procesie potomnym
 Name:		perl-Proc-Forkfunc
 Version:	96.042201
-Release:	12
+Release:	13
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
